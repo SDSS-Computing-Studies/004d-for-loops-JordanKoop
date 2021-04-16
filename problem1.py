@@ -22,3 +22,9 @@ enter a number:4
 ****
 
 """
+<<<<<<< HEAD
+number = int(input("Enter a number: "))
+star = str("*")
+
+for i in range(number):
+    print(star*number)

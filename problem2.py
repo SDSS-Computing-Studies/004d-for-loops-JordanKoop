@@ -37,3 +37,12 @@ example:
 Enter a number: -4
 Invalid input
 """
+x = int(input("Enter a number: "))
+y = 1
+strx = str(x)
+
+for i in range(1, x+1):
+    y = y*i
+
+stry = str(y)
+print(strx + "! is " + stry)

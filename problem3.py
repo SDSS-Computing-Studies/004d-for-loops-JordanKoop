@@ -17,3 +17,19 @@ example:
 enter a number: 4
 the sum of the series is 1234
 """
+num=int(input("Enter an integar under 10: "))
+if num>=10:
+    print("That integar is buffer then 10")
+
+digit="t"
+a=0
+b=0
+c=0
+d=0
+for t in range(1,num+1):
+    
+    b=int(t*digit)
+    d=b+c
+    c=d
+
+print("the sum of the series is "+str(d))
