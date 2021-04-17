@@ -37,12 +37,18 @@ example:
 Enter a number: -4
 Invalid input
 """
-x = int(input("Enter a number: "))
-y = 1
-strx = str(x)
+import math
 
-for i in range(1, x+1):
-    y = y*i
+x= input("Enter a number:")
+x= int(x)
+factorial = 1
 
-stry = str(y)
-print(strx + "! is " + stry)
+for i in range(1,x + 1):
+    factorial = factorial*i
+
+
+x= str(x)
+y= factorial
+y= str(y)
+
+print(x + "!" + ' ' + "is" + ' ' + y)

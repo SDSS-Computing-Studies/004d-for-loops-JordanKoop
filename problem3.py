@@ -17,19 +17,22 @@ example:
 enter a number: 4
 the sum of the series is 1234
 """
-num=int(input("Enter an integar under 10: "))
-if num>=10:
-    print("That integar is buffer then 10")
+x= input("Enter a number:")
+x= int(x)
 
-digit="t"
-a=0
-b=0
-c=0
-d=0
-for t in range(1,num+1):
-    
-    b=int(t*digit)
-    d=b+c
-    c=d
+ 
+def summation(x): 
+    sum = 0
+    j = 1
+      
+    for i in range(1, x + 1): 
+        sum = sum + j 
+        j = (j * 10) + 1
+          
+    return sum
 
-print("the sum of the series is "+str(d))
+
+
+y = summation(x)
+y= str(y)
+print("the sum of the series is" + ' ' + y) 

@@ -25,12 +25,13 @@ That name is on the list
 nameList = ("Lebron","Kobe","Michale","Shaq","Dennis")
 
 
-namelist = ("Lebron","Kobe","Michale","Shaq","Dennis")
-name=(input("Enter a name: ").strip())
-value=name in namelist
-for name in namelist:
-    if value==True:
-        print("That name is on the list!")
+name= (input("Enter a name")).strip()
 
-    else:
-        print("That name is not on the list!
+
+for i in nameList:
+    if name in nameList:
+        print("That name is on the list")
+        break
+
+else:
+    print("That name is not on the list")
